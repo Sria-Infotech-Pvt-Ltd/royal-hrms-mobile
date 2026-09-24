@@ -51,7 +51,9 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <img src="/logo.png" alt="Royal HRMS logo" className="h-9 w-9 rounded-lg object-cover" />
+          <span className="flex h-16 w-16 items-center justify-center rounded-lg bg-white p-1.5">
+            <img src="/logo.png" alt="Royal HRMS logo" className="h-full w-full object-contain" />
+          </span>
           <span className="font-head text-lg font-bold tracking-tight text-text-hi">
             ROYAL <span className="text-text-lo font-medium">HRMS</span>
           </span>
