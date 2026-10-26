@@ -23,9 +23,9 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-conditions" element={<TermsConditions />} />
-          <Route path="/data-deletion" element={<DataDeletion />} />
+          <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+          <Route path="/terms_conditions" element={<TermsConditions />} />
+          <Route path="/data_deletion" element={<DataDeletion />} />
         </Routes>
       </main>
       <Footer />
