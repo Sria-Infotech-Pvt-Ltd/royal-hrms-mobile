@@ -7,19 +7,19 @@ const POLICIES = [
     icon: ShieldCheck,
     title: 'Privacy Policy',
     text: 'What data Royal HRMS collects, why, and how it is used within your organization.',
-    to: '/privacy-policy',
+    to: '/privacy_policy',
   },
   {
     icon: Trash2,
     title: 'Account & Data Deletion',
     text: 'How to request deletion of your account and the personal data tied to it.',
-    to: '/data-deletion',
+    to: '/data_deletion',
   },
   {
     icon: FileText,
     title: 'Terms & Conditions',
     text: 'The rules that govern acceptable use of the Royal HRMS application.',
-    to: '/terms-conditions',
+    to: '/terms_conditions',
   },
 ]
 
